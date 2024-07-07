@@ -1,0 +1,38 @@
+/* styles.css */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.text-animate {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.text-animate-1 {
+    animation-delay: 0.1s;
+}
+
+.text-animate-2 {
+    animation-delay: 0.2s;
+}
+
+.text-animate-3 {
+    animation-delay: 0.3s;
+}
+
+.text-animate-4 {
+    animation-delay: 0.4s;
+}
+
+.text-animate-5 {
+    animation-delay: 0.5s;
+}
+
+/* Tambahkan kelas lainnya jika diperlukan */
