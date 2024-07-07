@@ -8,7 +8,7 @@ export default function ContactMe() {
                     <h2 className='text-white font-baloo text-[30px]'>Contact Me</h2>
                     <p className='text-white font-poppins lg:text-[20px]'>Isikan form dibawah ini dengan lengkap</p>
                 </div>
-                <div className='w-full max-w-[400px] lg:max-w-[720px] bg-gray-200 p-6 rounded-lg shadow-lg'>
+                <div className='w-full max-w-[300px] lg:max-w-[720px] bg-gray-200 p-6 rounded-lg shadow-lg'>
                     <form className='space-y-4 text-left'>
                         <div className='lg:grid lg:grid-cols-2 gap-10'>
                             <div>

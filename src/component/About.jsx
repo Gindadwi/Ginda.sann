@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import CardProject from './common/CardProject'
+import Ginda from '../assets/Ginda.jpg'
+import BgFoto from '../assets/BgFoto.png'
 
 export default function About() {
 
@@ -20,14 +22,14 @@ export default function About() {
 
             <div className=' w-full flex justify-center items-center '>
                 <div className='justify-center items-center w-full max-w-[360px] lg:max-w-[1080px] lg:flex'>
-                    <img src="/src/assets/BgFoto.png" className='absolute w-[300px] h-[220px] left-14 
+                    <img src={BgFoto} className='absolute w-[300px] h-[220px] left-14 
                     rounded-lg z-0 lg:left-52 lg:h-[280px] lg:w-[400px] lg:mt-[-50px] shadow' alt="" />
                     <CardProject
                         cardClass='lg:max-w-[1080px] lg:flex lg:justify-center lg:items-center lg:gap-10'
 
                         // Mengatur Image
                         imgCardClass=''
-                        image='/src/assets/Ginda.jpg'
+                        image={Ginda}
                         imgClass='lg:w-[400px] z-10 relative shadow-lg'
 
 

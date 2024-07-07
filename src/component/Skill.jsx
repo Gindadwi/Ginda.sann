@@ -39,8 +39,9 @@ export default function Skill() {
                         <Card
                             cardClass='border-t-2 border-l-2 border-black'
                             image={ReactLogo}
+                            imgClass='w-[40px] h-[38px] ml-[-15px]'
                             title="React JS"
-                            titleClass="pl-[-10px] text-React font-semibold ml-[-10px] "
+                            titleClass=" text-React font-semibold "
                             onClick={() => handleCardClick("React.js adalah pustaka JavaScript dari Facebook untuk membangun antarmuka pengguna (UI) yang interaktif. React memungkinkan pembuatan komponen UI yang dapat digunakan kembali, menggunakan Virtual DOM untuk performa cepat, dan JSX untuk mempermudah penulisan kode HTML di dalam JavaScript.", 
                                 "https://reactjs.org/")}
                         />
@@ -48,42 +49,43 @@ export default function Skill() {
                         <Card
                             cardClass='border-b-2 border-r-2 border-black'
                             image={Bootstrapp}
-                            imgClass='w-[50px]'
+                            imgClass='w-[38px]'
                             title="Bootstrapp"
                             titleClass='font-semibold text-Bootstrapp '
                             onClick={() => handleCardClick("Bootstrap adalah kerangka kerja (framework) front-end open-source untuk membangun situs web responsif dan mobile-first. Ini menyediakan komponen UI siap pakai dan gaya CSS yang dapat disesuaikan.",
                                 "https://getbootstrap.com/")}
                         />
                         <Card
-                            cardClass='border-t-2 border-l-2 border-black'
+                            cardClass='border-t-2 gap-3 border-l-2 border-black'
                             image={Wordpress}
-                            imgClass='w-[45px] h-[45px]'
+                            imgClass='w-[38px] h-[34px]'
                             title="Wordpress"
                             titleClass='font-semibold text-Wordpress '
                             onClick={() => handleCardClick(" WordPress adalah sistem manajemen konten (CMS) open-source yang digunakan untuk membuat dan mengelola situs web atau blog dengan antarmuka pengguna yang ramah dan berbagai plugin yang dapat diperluas.",
                                 "https://wordpress.com/id/")}
                         />
                         <Card
-                            cardClass='border-b-2 border-r-2 border-black'
+                            cardClass='border-b-2 gap-3 border-r-2 border-black'
                             image={Tailwind}
-                            imgClass='w-[45px] h-[35px]'
+                            imgClass='w-[39px] h-[30px]'
                             title="Tailwind"
                             titleClass='font-semibold text-Tailwind '
                             onClick={() => handleCardClick(" Tailwind CSS adalah kerangka kerja CSS yang memungkinkan desainer dan pengembang untuk membangun UI kustom dengan menetapkan kelas-kelas langsung pada elemen HTML, daripada menulis gaya CSS terpisah.",
                                 "https://tailwindcss.com/")}
                         />
                         <Card
-                            cardClass='border-t-2 border-l-2 border-black'
+                            cardClass='border-t-2 gap-5 border-l-2 border-black'
                             image={HTML}
-                            imgClass='w-[40px] h-[45px]'
+                            imgClass='w-[30px] h-[30px]'
                             title="HTML"
                             titleClass='font-semibold text-HTML '
                             onClick={() => handleCardClick("HTML adalah bahasa markup yang digunakan untuk membuat struktur halaman web. Ini terdiri dari serangkaian elemen (tags) yang menentukan bagaimana konten pada halaman web akan ditampilkan. Setiap elemen HTML mendefinisikan berbagai jenis konten seperti teks, gambar, video, link, dan lainnya. HTML menggunakan struktur berhierarki dengan elemen-elemen seperti <html>, <head>, <body>, dan berbagai tag seperti <div>, <p>, <img>, <a>, dan lain-lain.",
                                 "https://www.w3schools.com/html/")}
                         />
                         <Card
-                            cardClass='border-b-2 border-r-2 border-black'
+                            cardClass='border-b-2 gap-5 border-r-2 border-black'
                             image={CSS}
+                            imgClass='w-[30px] h-[30px]'
                             title="CSS"
                             titleClass='font-semibold text-CSS '
                             onClick={() => handleCardClick("CSS digunakan untuk mengatur tampilan dan tata letak elemen-elemen yang didefinisikan dalam HTML. Ini memungkinkan pengembang untuk mengontrol warna, ukuran teks, jarak antar elemen, serta tata letak seperti posisi, float, dan responsifitas halaman. CSS memanfaatkan aturan yang terdiri dari selector dan deklarasi. Selector mengidentifikasi elemen mana yang akan diberi gaya, sedangkan deklarasi berisi properti gaya seperti color, font-size, margin, padding, dan lainnya.",
@@ -96,8 +98,8 @@ export default function Skill() {
             </div>
             {modalContent && (
                 <div id="skill-modal" data-modal-backdrop="static" tabIndex="-1" aria-hidden="true" className="fixed bg-black bg-opacity-50 items-center justify-center flex top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto h-modal md:h-full">
-                    <div className="relative w-full h-full max-w-2xl md:h-auto bg-slate-400">
-                        <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                    <div className="relative w-full h-full max-w-2xl md:h-auto ">
+                        <div className="relative bg-white rounded-lg shadow">
                             <div className="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                                     Information
