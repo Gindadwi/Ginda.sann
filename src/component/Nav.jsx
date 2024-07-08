@@ -28,12 +28,13 @@ export default function Nav() {
 
             <div className={`fixed top-0 right-0 h-full w-1/2 bg-white transform ${open ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50 lg:hidden`}>
                 <div className='flex justify-end m-5'>
-                    <img
-                        src={ButtonClose}
-                        className='w-10 cursor-pointer'
-                        alt="Close Button"
-                        onClick={() => setOpen(false)}
-                    />
+
+                    <button onClick={() => setOpen(false)} type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="skill-modal">
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+
                 </div>
                 <nav className='text-left font-poppins text-base lg:flex lg:gap-7'>
                     <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>Home</div>

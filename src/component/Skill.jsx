@@ -39,7 +39,7 @@ export default function Skill() {
                         <Card
                             cardClass='border-t-2 border-l-2 border-black'
                             image={ReactLogo}
-                            imgClass='w-[40px] h-[38px] ml-[-15px]'
+                            imgClass='w-[65px] h-[38px] ml-[-15px]'
                             title="React JS"
                             titleClass=" text-React font-semibold "
                             onClick={() => handleCardClick("React.js adalah pustaka JavaScript dari Facebook untuk membangun antarmuka pengguna (UI) yang interaktif. React memungkinkan pembuatan komponen UI yang dapat digunakan kembali, menggunakan Virtual DOM untuk performa cepat, dan JSX untuk mempermudah penulisan kode HTML di dalam JavaScript.", 
