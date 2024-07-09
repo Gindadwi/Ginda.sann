@@ -1,12 +1,19 @@
 import React, { useState } from 'react';
 
+import Swal from 'sweetalert2';
+
 export default function ContactMe() {
+
+    
+
+    // Mendefinisikan state untuk form data
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         message: ''
     });
 
+    // Fungsi untuk menangani perubahan input pada form
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -14,14 +21,36 @@ export default function ContactMe() {
         });
     };
 
+    // Fungsi untuk menangani submit form
     const handleSubmit = (e) => {
-        e.preventDefault();
-        const { name, message } = formData;
+        e.preventDefault(); // Mencegah reload halaman
+        const { name, message, email } = formData; // Mendestrukturisasi form data
+
+        // Menampilkan pesan error jika form tidak lengkap
+        if (!name || !email || !message) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Form tidak lengkap!',
+                text: 'Mohon lengkapi semua field sebelum mengirim.',
+                confirmButtonText: 'OK'
+            });
+            return; // Menghentikan eksekusi jika form tidak lengkap
+        }
+
+        // Menghubungkan ke WhatsApp
         const phoneNumber = '+6281228900185'; // Ganti dengan nomor WhatsApp Anda
-        const whatsappMessage = `Nama: ${name}%0AEmail: ${formData.email}%0APesan: ${message}`;
+        const whatsappMessage = `Nama: ${name}%0AEmail: ${email}%0APesan: ${message}`;
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
-        window.location.href = whatsappUrl;
+        window.location.href = whatsappUrl; // Redirect ke WhatsApp dengan pesan
+
+        // Mengosongkan form setelah berhasil mengirim
+        setFormData({
+            name: '',
+            email: '',
+            message: ''
+        });
     };
+
 
     return (
         <div className='mx-[-33px] lg:mx-[-70px]'>

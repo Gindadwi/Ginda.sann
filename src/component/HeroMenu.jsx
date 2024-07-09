@@ -5,7 +5,7 @@ import SocialMediaIcons from '../component/SocialMediaIcons';
 import Typewriter from 'typewriter-effect';
 import FotoSaya from '../assets/FotoSaya.png'
 
-export default function HeroMenu(scrollToContact) {
+export default function HeroMenu({ scrollToContact }) {
 
     return (
         <div className='mx-[-33px] lg:mx-[-70px]'>
