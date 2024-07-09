@@ -20,7 +20,7 @@ export default function About() {
     return (
         <div id='About' className='bg-Abu_Abu pt-5 py-14 mx-[-33px] lg:mx-[-70px] lg:py-[-10px] lg:pb-[5px] '>
 
-            <div className=' w-full flex justify-center items-center h-[450px]  pt-5'>
+            <div className=' w-full flex justify-center items-center h-[450px] pb-5 pt-5'>
                 <div className='justify-center items-center w-full max-w-[360px] lg:max-w-[1080px] lg:flex'>
                     <img src={BgFoto} className='absolute w-[300px] h-[220px] left-14 
                     rounded-lg z-0 lg:left-52 lg:h-[280px] lg:w-[400px] lg:mt-[-50px] shadow' alt="" />
@@ -40,7 +40,7 @@ export default function About() {
                         deskripsi='Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika '
                         deskripsiClass='lg:text-[20px] lg:pb-5'
                         button='Selengkapnya'
-                        buttonClass='w-[200px] bg-gradient-to-r from-black via-blue-900 to-blue-600 text-white '
+                        buttonClass='w-[200px] bg-gradient-to-r mb-[30px] from-black via-blue-900 to-blue-600 text-white '
                         onClick={() => handleClick("Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika saya sangat menggemari dengan yang namanya desain salah satunya desain website seperti UI/UX tidak hanya itu saja saya juga sedang mendalami dan belajar mengenai front-end Developer dengan menggunakan berbagai Tools dari Tailwind, HTML, Bootsrapp, CSS, JavaScript, React js dan Vue js untuk sekarang ini saya dengan mempelajari tentang React js. tidak hanya itu saja untuk sekarang ini saya juga sedang membidangi salah satu profesi mejadi seorang Wordpress Developer di salah satu instansi Lembaga Zakat Al - Irsyad."
                             
                         )}
