@@ -33,7 +33,7 @@ export default function HeroMenu() {
                                 }}
                             /> 
                         </h1>
-                        <p className="pt-2 font-poppins text-base text-white">
+                        <p className="pt-2 text-[12px] font-poppins text-base text-white">
                             Saya seorang wordpress Developer dan sedang menekuni profesi sebagai
                             front-end developer saya juga menyujai UI/UX Design
                         </p>
