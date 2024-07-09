@@ -18,7 +18,7 @@ export default function About() {
     }
 
     return (
-        <div className='bg-Abu_Abu pt-5 py-14 mx-[-33px] lg:mx-[-70px] lg:py-[-10px] lg:pb-[5px] '>
+        <div id='About' className='bg-Abu_Abu pt-5 py-14 mx-[-33px] lg:mx-[-70px] lg:py-[-10px] lg:pb-[5px] '>
 
             <div className=' w-full flex justify-center items-center h-[450px]  pt-5'>
                 <div className='justify-center items-center w-full max-w-[360px] lg:max-w-[1080px] lg:flex'>

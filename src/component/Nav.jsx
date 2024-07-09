@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ButtonNav from '../assets/Button Nav.png'
-import ButtonClose from '../assets/ButtonClose.png'
+// import ButtonClose from '../assets/ButtonClose.png'
+
 
 export default function Nav() {
     const [open, setOpen] = useState(false);
@@ -17,11 +18,11 @@ export default function Nav() {
                         onClick={() => setOpen(!open)}
                     />
                     <nav className='flex gap-10 hidden sm:flex'>
-                        <div className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Home</div>
-                        <div className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Skill</div>
-                        <div className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Project</div>
-                        <div className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>About</div>
-                        <div className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Contact</div>
+                        <a href='#HeroMenu' className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer' >Home</a>
+                        <a href='#Skill' className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Skill</a>
+                        <a href='#Project' className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Project</a>
+                        <a href='#About' className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>About</a>
+                        <a href='#Contact' className='text-white hover:cursor-pointer hover:border-b-2 hover:transition-all hover:duration-300 hover:ease-in-out py-2 pl-2 text-lg cursor-pointer'>Contact</a>
                     </nav>
                 </div>
             </header>
@@ -37,11 +38,25 @@ export default function Nav() {
 
                 </div>
                 <nav className='text-left font-poppins text-base lg:flex lg:gap-7'>
-                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>Home</div>
-                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>Skill</div>
-                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>Project</div>
-                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>About</div>
-                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white' onClick={() => setOpen(false)}>Contact</div>
+                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white'>
+                        <a className='w-full'  href='#HeroMenu' >Home</a>
+                    </div>
+
+                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white'>
+                        <a className='w-full' href='#Skill' >Skill</a>
+                    </div>
+                    
+                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white'>
+                        <a className='w-full'  href='#Project'>Project</a>
+                    </div>
+
+                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white'>
+                        <a className='w-full'  href='#About'>About</a>
+                    </div>
+
+                    <div className='text-black py-2 pl-2 text-lg cursor-pointer transition duration-300 ease-in-out hover:bg-blue-400 hover:text-white'>
+                        <a className='w-full' href='#Contact'>Contact</a>
+                    </div>
                 </nav>
             </div>
 

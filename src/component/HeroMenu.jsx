@@ -5,7 +5,7 @@ import SocialMediaIcons from '../component/SocialMediaIcons';
 import Typewriter from 'typewriter-effect';
 import FotoSaya from '../assets/FotoSaya.png'
 
-export default function HeroMenu() {
+export default function HeroMenu(scrollToContact) {
 
     return (
         <div className='mx-[-33px] lg:mx-[-70px]'>
@@ -40,7 +40,8 @@ export default function HeroMenu() {
                         <RoundedButton
                             className="bg-Button1 border-Button1 mt-2 text-white font-poppins"
                             name="Contact Me"
-                        />
+                            onClick={scrollToContact}                       
+                         />
                     </div>
 
                     <div className="items-center justify-center w-full flex flex-col lg:mt-[-50px] lg:ml-[50px]">
