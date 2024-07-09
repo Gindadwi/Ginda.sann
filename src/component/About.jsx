@@ -37,7 +37,7 @@ export default function About() {
                         textClass='lg:w-[450px] lg:mt-[-25px]'
                         title='About Me'
                         titleClass='pt-5 lg:text-[30px] '
-                        deskripsi='Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika saya sangat menggemari dengan yang namanya desain salah satunya desain website seperti UI/UX tidak hanya itu saja saya juga sedang mendalami dan belajar mengenai front-end Developer'
+                        deskripsi='Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika '
                         deskripsiClass='lg:text-[20px] lg:pb-5'
                         button='Selengkapnya'
                         buttonClass='w-[200px] bg-gradient-to-r from-black via-blue-900 to-blue-600 text-white '
