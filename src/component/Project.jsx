@@ -14,8 +14,9 @@ export default function Project() {
 
                 <div>
                     <h1 className='text-white font-baloo text-[30px] lg:text-[35px]'>My Project</h1>
-                    <p className='text-white font-poppins mx-2'>Berikut di bawah ini adalah beberapa skill yang saya pelajari
-                        dan skil yang saya kuasai</p>
+                    <p className='text-white font-poppins mx-2'>Berikut dibawah ini adalah beberapa sempel 
+                        project yang sudah saya buat 
+                    </p>
                 </div>
 
                 <div className='flex w-full justify-center items-center '>
