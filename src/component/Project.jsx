@@ -5,6 +5,8 @@ import kitchenapp from "../assets/kitchenapp.jpg";
 import sedekahkurma from "../assets/sedekahkurma.jpg";
 import nyahsiok from "../assets/nyahsiok.jpg";
 import portoSaya from "../assets/portoSaya.jpg";
+import apotik from "../assets/Apotik.jpeg"
+import kurban from "../assets/kurban.jpeg"
 
 export default function Project() {
     return (
@@ -60,6 +62,20 @@ export default function Project() {
                             deskripsi="website portofolio sederhana ini menggunakan bootstrap dan java ini merupakan website pertama portofolio saya"
                             button='Lihat'
                             onClick={() => window.location.href = 'https://gindadwi-github-io.vercel.app/'}
+                        />
+                        <CardProject
+                            image={apotik}
+                            title="Apotik Sejahtera"
+                            deskripsi="website Apotik ini merupakan website jual beli obat secara online dan memiliki fitur konsultasi live chat. akan tetapi website ini masih dalam taham pengembangan"
+                            button='Lihat'
+                            onClick={() => window.location.href = 'https://apotik-sejahtera.vercel.app/'}
+                        />
+                        <CardProject
+                            image={kurban}
+                            title="Kurban"
+                            deskripsi="website kurban dibuat menggunakan wordpress dan elementor pro akan tetapi website ini juga masih dalam pengembangan lebih lanjut terkait fitur pembayaran online"
+                            button='Lihat'
+                            onClick={() => window.location.href = 'https://kurban.laznasalirsyad.org/'}
                         />
                     </div>
                 </div>
