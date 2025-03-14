@@ -1,24 +1,51 @@
-import React from 'react'
+import React from "react";
 
-
-const CardProject = ({ image, title, deskripsi, button, imgClass, imgCardClass, titleClass, cardClass, buttonClass, textClass, deskripsiClass, onClick }) => {
+const CardProject = ({
+  image,
+  title,
+  deskripsi,
+  button,
+  imgClass,
+  imgCardClass,
+  titleClass,
+  cardClass,
+  buttonClass,
+  textClass,
+  deskripsiClass,
+  onClick,
+}) => {
   return (
-    <div className={`bg-Abu_Abu h-[400px]  rounded-md p-4 m-2 text-left `} >
+    <div className={`bg-Abu_Abu h-[400px]  rounded-md p-4 m-2 text-left `}>
       <div className={`${cardClass}`}>
         <div className={`${imgCardClass}`}></div>
-          <img src={image} className={`rounded-lg border border-black shadow shadow-lg shadow-black ${imgClass}`} alt="" />
+        <img
+          src={image}
+          className={`rounded-lg border border-black shadow shadow-lg shadow-black ${imgClass}`}
+          alt=""
+        />
         <div>
           <div className={`mt-3 ${textClass}`}>
-            <h2 className={`text-black font-baloo text-[24px] pt-2 ${titleClass}`}>{title}</h2>
-            <p className={`text-black font-poppins text-[14px] py-2 ${deskripsiClass}`}>{deskripsi}</p>
-            <button onClick={onClick} className={`bg-gradient-to-r from-black via-blue-900 to-blue-600 rounded-md w-[100px] p-2 mt-3 text-white font-poppins ${buttonClass}`} >{button}</button>
+            <h2
+              className={`text-black font-semibold font-poppins text-[18px] pt-2 ${titleClass}`}
+            >
+              {title}
+            </h2>
+            <p
+              className={`text-black font-poppins text-[14px] py-2 ${deskripsiClass}`}
+            >
+              {deskripsi}
+            </p>
+            <button
+              onClick={onClick}
+              className={`bg-gradient-to-r from-black via-blue-900 to-blue-600 rounded-md w-[100px] p-2 mt-3 text-white font-poppins ${buttonClass}`}
+            >
+              {button}
+            </button>
           </div>
         </div>
-
       </div>
-
     </div>
-  )
-}
+  );
+};
 
 export default CardProject;
