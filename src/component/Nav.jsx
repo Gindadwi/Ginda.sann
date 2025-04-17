@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ButtonNav from "../assets/Button Nav.png";
 // import ButtonClose from '../assets/ButtonClose.png'
+import { TiThMenu } from "react-icons/ti";
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -12,12 +13,13 @@ export default function Nav() {
           <div className="font-Baloo text-white text-2xl font-semibold">
             Portofolio
           </div>
-          <img
-            src={ButtonNav}
+          <div
             className="w-10 cursor-pointer md:hidden"
-            alt="Menu Button"
             onClick={() => setOpen(!open)}
-          />
+            aria-label="Menu Button"
+          >
+            <TiThMenu className="text-white w-10 h-10" />
+          </div>
           <nav className=" gap-10 hidden sm:flex">
             <a
               href="#HeroMenu"
