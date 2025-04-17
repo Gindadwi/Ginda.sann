@@ -30,7 +30,7 @@ export default function HeroMenu({ scrollToContact }) {
           </h1>
           <p className="pt-2 text-[12px] font-poppins text-base text-white">
             Saya seorang Web Developer memiliki pengalaman membangun aplikasi
-            menggunakan wordpress, react.js, tailwind css dan express js
+            menggunakan Wordpress, React.js, Tailwind css, Express js, dan MySql
           </p>
           <RoundedButton
             className="bg-Button1 border-Button1 mt-2 text-white font-poppins"
