@@ -10,7 +10,7 @@ export default function Nav() {
       <header className="bg-gradient-to-r from-black via-blue-900 to-blue-600 w-full items-center fixed top-0 left-0 z-20">
         <div className="p-4 flex items-center justify-between mx-auto max-w-[1080px]">
           <div className="font-Baloo text-white text-2xl font-semibold">
-            Ginda Dwi
+            Portofolio
           </div>
           <img
             src={ButtonNav}

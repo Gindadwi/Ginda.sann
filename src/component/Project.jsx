@@ -17,9 +17,9 @@ export default function Project() {
           <h1 className="text-white font-baloo text-[30px] lg:text-[35px]">
             My Project
           </h1>
-          <p className="text-white font-poppins mx-2">
-            Berikut dibawah ini adalah beberapa sempel project yang sudah saya
-            buat
+          <p className="text-white font-poppins mx-4 text-[16px] lg:text-[20px]">
+            Berikut dibawah ini adalah beberapa sempel project yang sudah pernah
+            saya buat
           </p>
         </div>
 

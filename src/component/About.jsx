@@ -39,13 +39,13 @@ export default function About() {
             textClass="lg:w-[450px] lg:mt-[-25px]"
             title="About Me"
             titleClass="pt-5 lg:text-[30px] "
-            deskripsi="Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika "
+            deskripsi="Hallo Semua saya Ginda dwi pamungkas saya seorang lulusan dari  Universitas Amikom Purwokerto Jurusan Informatika "
             deskripsiClass="lg:text-[20px] lg:pb-5"
             button="Selengkapnya"
             buttonClass="w-[200px] bg-gradient-to-r mb-[30px] from-black via-blue-900 to-blue-600 text-white "
             onClick={() =>
               handleClick(
-                "Hallo Semua saya Ginda dwi pamungkas saya seorang mahasiswa semester akhir Universitas Amikom Purwokerto Jurusan Informatika saya sangat menggemari dengan yang namanya desain salah satunya desain website seperti UI/UX tidak hanya itu saja saya juga sedang mendalami dan belajar mengenai front-end Developer dengan menggunakan berbagai Tools dari Tailwind, HTML, Bootsrapp, CSS, JavaScript, React js dan Vue js untuk sekarang ini saya dengan mempelajari tentang React js. tidak hanya itu saja untuk sekarang ini saya juga sedang membidangi salah satu profesi mejadi seorang Wordpress Developer di salah satu instansi Lembaga Zakat Al - Irsyad."
+                "Hallo Semua saya Ginda dwi pamungkas saya seorang lulusan dari Universitas Amikom Purwokerto Jurusan Informatika saya sangat menggemari desain website atau UI/UX design. tidak hanya itu saja saya juga sedang mendalami dan belajar sebagai fullstack website developer dengan menggunakan berbagai Tools dari Tailwind, HTML, Bootsrapp, Tailwind CSS, JavaScript, React js dan express Js . saya memiliki pengalaman kerja sebagai wordpres developer dan pengalaman magang sebagai website developer "
               )
             }
           />

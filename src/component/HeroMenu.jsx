@@ -3,7 +3,7 @@ import RoundedButton from "../component/common/Button";
 import SocialMediaIcons from "../component/SocialMediaIcons";
 // import Typewriter from 'react-typewriter-effect';
 import Typewriter from "typewriter-effect";
-import FotoSaya from "../assets/FotoSaya.png";
+import FotoSaya from "../assets/wisuda.jpg";
 
 export default function HeroMenu({ scrollToContact }) {
   return (
@@ -14,7 +14,7 @@ export default function HeroMenu({ scrollToContact }) {
           <h3 className="font-baloo text-white text-[24px] lg:text-3xl ">
             Hai, I'm
           </h3>
-          <h1 className="flex pt-2 font-baloo text-white text-[30px] lg:text-4xl ">
+          <h1 className="flex pt-1 font-baloo text-white text-[30px] lg:text-4xl ">
             Gi{" "}
             <Typewriter
               options={{
@@ -29,8 +29,8 @@ export default function HeroMenu({ scrollToContact }) {
             />
           </h1>
           <p className="pt-2 text-[12px] font-poppins text-base text-white">
-            Saya seorang wordpress Developer dan sedang menekuni profesi sebagai
-            front-end developer saya juga menyujai UI/UX Design
+            Saya seorang Web Developer memiliki pengalaman membangun aplikasi
+            menggunakan wordpress, react.js, tailwind css dan express js
           </p>
           <RoundedButton
             className="bg-Button1 border-Button1 mt-2 text-white font-poppins"
@@ -39,8 +39,12 @@ export default function HeroMenu({ scrollToContact }) {
           />
         </div>
 
-        <div className="items-center justify-center w-full flex flex-col lg:mt-[-50px] lg:ml-[50px]">
-          <img src={FotoSaya} alt="ginda dwi" className="w-[350px]" />
+        <div className="items-center justify-center mt-5 w-full flex flex-col lg:mt-[-50px] lg:ml-[50px]">
+          <img
+            src={FotoSaya}
+            alt="ginda dwi"
+            className="w-[350px] rounded-2xl"
+          />
           <div className="mt-4">
             <SocialMediaIcons />
           </div>
