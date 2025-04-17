@@ -11,7 +11,7 @@ import apotik from "../assets/Apotik.jpeg";
 
 export default function Project() {
   return (
-    <div className="mx-[-33px] lg:mx-[-70px]">
+    <div className="mx-[-33px] lg:mx-[-70px] justify-center items-center">
       <div className="h-full mt-[-20px] py-10 pb-12 bg-gradient-to-r from-black via-blue-900 to-blue-600">
         <div>
           <h1 className="text-white font-baloo text-[30px] lg:text-[35px]">
